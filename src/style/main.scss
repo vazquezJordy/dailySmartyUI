@@ -2,8 +2,11 @@ $color-gray-one: #666666;
 $color-gray-two: #b3b3b3;
 $color-blue-one: #0079FF;
 
+@import './mixins.scss';
 @import './searchBar.scss';
 @import './recentPosts.scss';
+@import './home.scss';
+@import './results.scss';
 
 
 .post-topic {
@@ -16,15 +19,6 @@ body {
 .app-wrapper {
     display: grid;
     justify-content: center;
-}
-
-.home {
-    height: 100vh;
-    width: 66vw;
-    display: grid;
-    align-content: space-around;
-    // justify-items: stretch;
-    // grid-template-rows: 1fr 2fr 1fr;
 }
 
 .logo-main,
