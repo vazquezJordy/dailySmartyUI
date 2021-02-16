@@ -22,6 +22,7 @@
 }
 
 .result-post {
+    
     display: grid;
     align-content: space-around;
     grid-row-gap: 22px;
@@ -34,6 +35,7 @@
     }
 
     .result-post__title a { 
+        
         color: $color-gray-one;
         font-size: 18px;
         line-height: 22px;

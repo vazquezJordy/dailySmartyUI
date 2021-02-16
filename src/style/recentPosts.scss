@@ -1,9 +1,11 @@
 .recent-posts {
+    text-decoration: none;
     display: grid;
     align-content: center;
     justify-items: center;
 
     .recent-posts__wrapper {
+        
         display: grid;
         grid-row-gap: 21px;
         width: 100%;
